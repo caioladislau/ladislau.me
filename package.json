@@ -1,0 +1,12 @@
+{
+  "name": "ladislau.me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Francisco Caio Silva Ladislau",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
+}
