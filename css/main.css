@@ -1,25 +1,16 @@
 html, body {
 	height: 100%;
-	background-color: #333;
+	background-color: #0A0C1B;
 	text-align: center;
+	font-family: 'Inconsolata', monospace;
 }
 
 body {
 	color: #fff;
-	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
 a, a:focus,a:hover {
 	color: #fff;
-}
-
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-	color: #333;
-	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #fff;
-	border: .05rem solid #fff;
 }
 
 .site-wrapper {
@@ -27,7 +18,6 @@ a, a:focus,a:hover {
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
-	box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
 
 .site-wrapper-inner {
@@ -65,14 +55,14 @@ a, a:focus,a:hover {
 h2 {
 	margin:  0 auto;
 	color:  #39FF14;
-	font: bold 300% Consolas, Monaco, monospace;
+	font: bold 300%;
 	border-right: .1em solid #39FF14;
-	width: 12.5em;
+	width: 11em;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation:	typing 2s steps(40, end),
+	-webkit-animation:	typing 1.5s steps(35, end),
 						blink-caret .5s step-end infinite alternate;
-	-moz-animation:		typing 2s steps(40, end),
+	-moz-animation:		typing 1.5s steps(35, end),
 						blink-caret .5s step-end infinite alternate;
 }
 
