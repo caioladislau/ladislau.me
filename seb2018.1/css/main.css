@@ -1,0 +1,16 @@
+.bg-primary {
+	background-color: #2980b9 !important;
+}
+
+li:not(.nav-item) {
+	padding-top: 15px;
+}
+
+ul li:not(.nav-item):first-child {
+	padding-top: 0px;
+}
+
+small {
+	font-style: italic;
+	color: #95a5a6;
+}
