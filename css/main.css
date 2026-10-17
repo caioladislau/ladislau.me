@@ -52,14 +52,17 @@ a, a:focus,a:hover {
 @-moz-keyframes typing { from { width: 0; } }
 @-moz-keyframes blink-caret { 50% { border-color: transparent; } }
 
-h2 {
+h2.lead {
 	margin:  0 auto;
 	color:  #39FF14;
-	font: bold 300%;
+	font-size: 1.25rem;
+	font-weight: 700;
 	border-right: .1em solid #39FF14;
 	width: 11em;
 	white-space: nowrap;
 	overflow: hidden;
+	animation: typing 1.5s steps(35, end),
+			   blink-caret .5s step-end infinite alternate;
 	-webkit-animation:	typing 1.5s steps(35, end),
 						blink-caret .5s step-end infinite alternate;
 	-moz-animation:		typing 1.5s steps(35, end),
@@ -115,4 +118,16 @@ h2 {
 img {
 	width: 60px;
 	margin-bottom: 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	h2.lead, .i1, .i2, .i3, .i4 {
+		animation: none;
+		-webkit-animation: none;
+		-moz-animation: none;
+	}
+
+	h2.lead {
+		border-right: 0;
+	}
 }
